@@ -2,3 +2,7 @@
 - this project is powered by Shaft ( Unified Test Automation Engine ), you can see more about it here: https://github.com/ShaftHQ/SHAFT_ENGINE
 - follow instructions from here https://github.com/ShaftHQ/using_SHAFT_Engine to run the project 
 - Note: all files are in master branch.
+
+  All cases are run locally:
+ 
+![image](https://github.com/ahmadhamedd/QA_Assignment/assets/26810454/7c69cb3c-c44c-4560-900e-71397d564364)
