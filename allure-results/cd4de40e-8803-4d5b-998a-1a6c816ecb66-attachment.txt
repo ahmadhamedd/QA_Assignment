@@ -1,0 +1,66 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 14' test cases in the current suite                                        
+                                           Test Method: 'LoginIssues.verifyThatUserCantLoginWithWrong'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:49:31.0437 AM
+[ReportManager] Click "Log in". @24-07-2023 00:49:31.0478 AM
+[ReportManager] Get text from "By.id: loginusername". @24-07-2023 00:49:31.0921 AM
+[ReportManager] Clear "By.id: loginusername". @24-07-2023 00:49:31.0922 AM
+[ReportManager] Type "Wrong" into "By.id: loginusername". @24-07-2023 00:49:32.0173 AM
+[ReportManager] Type append "Wrong" into "By.id: loginpassword". @24-07-2023 00:49:32.0313 AM
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:49:32.0518 AM
+[ReportManager] Click "Log in". @24-07-2023 00:49:32.0559 AM
+[ReportManager] Alert is present @24-07-2023 00:49:33.0084 AM
+[ReportManager] Alert Text is: [User does not exist.] @24-07-2023 00:49:33.0089 AM
+[ReportManager] Get alert text. @24-07-2023 00:49:33.0089 AM
+[ReportManager] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User does not exist.}
+  (Session info: chrome=115.0.5790.102): User does not exist.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cd9c5d468a139ad5caa2aa0a840e517, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59479}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59479/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cd9c5d468a139ad5caa2aa0a840e517
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ LoginIssues.verifyThatUserCantLoginWithWrong(LoginIssues.java:23)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @24-07-2023 00:49:33.0103 AM
+[ReportManager] Expected "User does not exist.", and actual "User does not exist." @24-07-2023 00:49:33.0104 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "User does not exist." and Actual "User does not exist.". Comparison Type "EQUALS". Validation Type "POSITIVE". @24-07-2023 00:49:34.0917 AM
+[ReportManager] Assertion Passed: "User does not exist." is equal to "User does not exist.". @24-07-2023 00:49:34.0922 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1690148973516_verifyThatUserCantLoginWithWrong_ValidateEquals_passed' @24-07-2023 00:49:34.0960 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod' @24-07-2023 00:49:34.0960 AM

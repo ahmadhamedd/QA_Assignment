@@ -1,0 +1,1258 @@
+[INFO ] 2023-07-24 00:49:24.929 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      Powered by SHAFT Engine v7.2.20230621                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:26.023 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-07-24 00:49:26.024 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-07-24 00:49:26.121 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-07-24 00:49:26.540 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-07-24 00:49:26.748 [main] Utils - [TestNG] Running:
+  C:\Users\Asus\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-24 00:49:26.777 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:26.903 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-07-24 00:49:26.910 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-07-24 00:49:27.025 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                            'LoginIssues.beforeClass'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:27.039 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                           'LoginIssues.beforeMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:27.060 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:49:27.075 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:49:27.076 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:27.077 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:49:27.404 [main] ResolutionCache - Removing resolution chrome=115 from cache (expired on 2023-07-24T00:33:16.000+0300)
+[DEBUG] 2023-07-24 00:49:27.430 [main] InternalHttpClient - ex-0000000001 preparing request execution
+[DEBUG] 2023-07-24 00:49:27.445 [main] ProtocolExec - ex-0000000001 target auth state: UNCHALLENGED
+[DEBUG] 2023-07-24 00:49:27.446 [main] ProtocolExec - ex-0000000001 proxy auth state: UNCHALLENGED
+[DEBUG] 2023-07-24 00:49:27.446 [main] ConnectExec - ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+[DEBUG] 2023-07-24 00:49:27.446 [main] InternalHttpClient - ex-0000000001 acquiring endpoint (3 MINUTES)
+[DEBUG] 2023-07-24 00:49:27.447 [main] PoolingHttpClientConnectionManager - ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+[DEBUG] 2023-07-24 00:49:27.458 [main] PoolingHttpClientConnectionManager - ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] 2023-07-24 00:49:27.474 [main] PoolingHttpClientConnectionManager - ex-0000000001 acquired ep-0000000001
+[DEBUG] 2023-07-24 00:49:27.474 [main] InternalHttpClient - ex-0000000001 acquired endpoint ep-0000000001
+[DEBUG] 2023-07-24 00:49:27.474 [main] ConnectExec - ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
+[DEBUG] 2023-07-24 00:49:27.475 [main] InternalHttpClient - ep-0000000001 connecting endpoint (null)
+[DEBUG] 2023-07-24 00:49:27.478 [main] PoolingHttpClientConnectionManager - ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+[DEBUG] 2023-07-24 00:49:27.478 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com resolving remote address
+[DEBUG] 2023-07-24 00:49:27.483 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.111.133]
+[DEBUG] 2023-07-24 00:49:27.486 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.110.133:443 (30 SECONDS)
+[DEBUG] 2023-07-24 00:49:27.486 [main] SSLConnectionSocketFactory - Connecting socket to raw.githubusercontent.com/185.199.110.133:443 with timeout 30 SECONDS
+[DEBUG] 2023-07-24 00:49:27.578 [main] SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+[DEBUG] 2023-07-24 00:49:27.578 [main] SSLConnectionSocketFactory - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] 2023-07-24 00:49:27.578 [main] SSLConnectionSocketFactory - Starting handshake (null)
+[DEBUG] 2023-07-24 00:49:27.772 [main] SSLConnectionSocketFactory - Secure session established
+[DEBUG] 2023-07-24 00:49:27.772 [main] SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+[DEBUG] 2023-07-24 00:49:27.772 [main] SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+[DEBUG] 2023-07-24 00:49:27.772 [main] SSLConnectionSocketFactory -  peer principal: CN=*.github.io, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+[DEBUG] 2023-07-24 00:49:27.774 [main] SSLConnectionSocketFactory -  peer alternative names: [*.github.io, github.io, *.github.com, github.com, www.github.com, *.githubusercontent.com, githubusercontent.com]
+[DEBUG] 2023-07-24 00:49:27.774 [main] SSLConnectionSocketFactory -  issuer principal: CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US
+[DEBUG] 2023-07-24 00:49:27.775 [main] DefaultManagedHttpClientConnection - http-outgoing-0 set socket timeout to 3 MINUTES
+[DEBUG] 2023-07-24 00:49:27.775 [main] DefaultHttpClientConnectionOperator - raw.githubusercontent.com:443 connected null->raw.githubusercontent.com/185.199.110.133:443 as http-outgoing-0
+[DEBUG] 2023-07-24 00:49:27.775 [main] PoolingHttpClientConnectionManager - ep-0000000001 connected http-outgoing-0
+[DEBUG] 2023-07-24 00:49:27.775 [main] InternalHttpClient - ep-0000000001 endpoint connected
+[DEBUG] 2023-07-24 00:49:27.776 [main] MainClientExec - ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] 2023-07-24 00:49:27.776 [main] RequestAddCookies - ex-0000000001 Cookie spec selected: strict
+[DEBUG] 2023-07-24 00:49:27.788 [main] InternalHttpClient - ep-0000000001 start execution ex-0000000001
+[DEBUG] 2023-07-24 00:49:27.789 [main] PoolingHttpClientConnectionManager - ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
+[DEBUG] 2023-07-24 00:49:27.789 [main] headers - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] 2023-07-24 00:49:27.789 [main] headers - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+[DEBUG] 2023-07-24 00:49:27.789 [main] headers - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+[DEBUG] 2023-07-24 00:49:27.789 [main] headers - http-outgoing-0 >> cache-control: max-age=0
+[DEBUG] 2023-07-24 00:49:27.789 [main] headers - http-outgoing-0 >> connection: keep-alive
+[DEBUG] 2023-07-24 00:49:27.789 [main] headers - http-outgoing-0 >> Host: raw.githubusercontent.com
+[DEBUG] 2023-07-24 00:49:27.790 [main] wire - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.790 [main] wire - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.790 [main] wire - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.790 [main] wire - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.790 [main] wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.790 [main] wire - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.790 [main] wire - http-outgoing-0 >> "[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.834 [main] wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.834 [main] wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.834 [main] wire - http-outgoing-0 << "Content-Length: 723[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.834 [main] wire - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.834 [main] wire - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.834 [main] wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-GitHub-Request-Id: 2D5C:755A:2E636E:35DE41:64B62893[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Date: Sun, 23 Jul 2023 21:49:27 GMT[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-Served-By: cache-mrs10572-MRS[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-Timer: S1690148967.040788,VS0,VE1[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "X-Fastly-Request-ID: 99979deba283c05bdaee6b7915ce96f476cd0d74[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Expires: Sun, 23 Jul 2023 21:54:27 GMT[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "Source-Age: 95[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.835 [main] wire - http-outgoing-0 << "[\r][\n]"
+[DEBUG] 2023-07-24 00:49:27.839 [main] headers - http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Connection: keep-alive
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Content-Length: 723
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Cache-Control: max-age=300
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-Content-Type-Options: nosniff
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-Frame-Options: deny
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-GitHub-Request-Id: 2D5C:755A:2E636E:35DE41:64B62893
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Content-Encoding: gzip
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Accept-Ranges: bytes
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Date: Sun, 23 Jul 2023 21:49:27 GMT
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-Served-By: cache-mrs10572-MRS
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-Cache: HIT
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-Cache-Hits: 1
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << X-Timer: S1690148967.040788,VS0,VE1
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+[DEBUG] 2023-07-24 00:49:27.840 [main] headers - http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
+[DEBUG] 2023-07-24 00:49:27.841 [main] headers - http-outgoing-0 << X-Fastly-Request-ID: 99979deba283c05bdaee6b7915ce96f476cd0d74
+[DEBUG] 2023-07-24 00:49:27.841 [main] headers - http-outgoing-0 << Expires: Sun, 23 Jul 2023 21:54:27 GMT
+[DEBUG] 2023-07-24 00:49:27.841 [main] headers - http-outgoing-0 << Source-Age: 95
+[DEBUG] 2023-07-24 00:49:27.845 [main] MainClientExec - ex-0000000001 connection can be kept alive for 3 MINUTES
+[DEBUG] 2023-07-24 00:49:27.850 [main] wire - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]$7[0xffffffc1]R[0x12]#;[0xffffff94]v[0xffffffbf]~[0xffffffb6][0xfffffff3]1[0xffffff92][0xffffff9a][0xffffffc1][0x1a]x[0xffffffcb][0xffffffb5][0xffffffaf][0xffffffcf]9[0xffffffbe][0xfffffff7]8v[0xb][0x1c][0x1e]E4[0xfffffff6]$x4[0xffffffa1][0xb]*[0xffffffb1][0xffffffd1][0xffffff82][0xfffffffb]%[0xffffff93][0xffffffe0][0xffffffb3][0x10][0xffffffc1][0xffffffe5]qBY,!Y[0xffffffea] KM8,[0x10][0xfffffff0][0x19][0xffffffdd]u[0xffffff82][0x1e][0xffffffb0][0xffffffd8]L[0xffffffcb]%[0xffffff86][0xffffffa1][0xe][0xffffffb8][0xfffffff0]P[0xffffffe8]$[0xf][0x13]t[0x13]3[0xfffffff9][0xffffff84]B2[0xffffffae][0xffffffe6]|@[0xfffffff5][0x1d][0x8][0xffffffc4][0x18][0x16][0xffffff82]o[0xffffffa4][0xffffff9a]P[0xffffff94][0xffffffe7][0xffffffce]R[0xfffffff0][0x8][0xffffffdb]p[0xffffffcb][0x4][0xfffffffa][0xfffffffc][0xffffffb9][\r][0xffffff93][0x15][\n]"
+[DEBUG] 2023-07-24 00:49:27.850 [main] wire - http-outgoing-0 << "[0xffffffda][0xffffff86][0xffffffa1][0x17][0xffffffa8]Q3[0xffffffcb][0xffffffd6][0xffffffd1][0xffffff85][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]s[0x12][0x16][0x7] _d[0xffffff82][0xffffff91][0xffffff84][0xfffffff3][0x1f],[0xfffffff6][0x14]j[0x1b]F,^+[0xffffff98]1ua2[0xffffffbf]h([0xffffff8e][0xffffff94][0xffffffa2][0xffffff91]m[0xffffffa3][0xffffffeb][0xffffff9a][0xffffffb0][0xffffffbb]I[0x17]t[0xffffffdf][0xffffffbd][0xffffffef][0xffffffbb][0xffffff91][0xffffffd7]U[0xffffffbb][0xffffff82][0xffffff9e][0x3][0xffffff9b][0xffffff88][0xffffffb9][0xffffffa6]$[0xffffffa6][0xc][0xffffff9b][0xffffffa5][0xffffffe2][0xffffff83][0xffffff98]F[0xffffffd8]o[0xffffff9e]Mg[0xffffff93][0xffffffbb][0xffffffd9]`|[0xfffffffb]u4[0xffffff9c][0x7f]"}B[0xffffffce][0x8][0xffffffb9][0xffffffe3]<[0x8][0xffffff91][0xffffff90][0xffffff94][0xffffff82][0xffffff90][0xffffffc1]j[0x15]2WI[0xffffffe3]1![0x19][0xffffff91]BnB[0xffffff80][0x9]<f[0xffffffb5][0xffffffe8]=[0xffffffd1]p[0xffffffbd][[0xffffffcf][0xffffffe5][0x1b][0xfffffff4][0xffffff9c][0xffffffff][0xfffffffc][0xfffffff8][0xffffffe1][0xffffffe2][0xffffff94][0xffffffa2][0xffffffae][0xe][0x14]5[0xffffff9a]8[0xffffff83][0xffffffd1]`:[0xfffffffd]<[0xffffffb8][0x1f][0xffffff9c]R[0xffffffcf]u[0x7f]6[0xffffffbc][0xffffff83][0xffffffef][0xf][0xffffffc3][0xffffffd9]/[0xfffffff8][0xfffffff2][0xffffffcd]y s[0xffffffee]'[0x1b]*0g[0xffffffcb][0xffffffc8]nF7H][0xffffff83][0xffffff97]{[0xffffffb1]Q[0x5][\r][0xffffffb5]c[0xffffffb4][0xf][0x2][0xffffffb3][0xffffffb4][0xffffff93][0xe]C[0xffffffa7][0xffffffb3]kAD][0xffffff9d][0xffffffde][0xffffffdb][0xffffffda][0xffffff88][0xffffffec][0xffffffa5][0xffffffbc][0xffffff99][0xffffffd9][0xffffffba]t[0xffffffb5][0xffffffea]9[0xffffffea][0x10])[0xffffffb7][0xffffffca][0xffffff9e][0xfffffff2][0xffffffe2]d^N[0xffffffd8]FW[0x16][0xffffffcd][0xffffffdc]_[0x10][0xfffffff9]i|[0x1c][0xffffff93][0xffffff8e][0xfffffff9]o[0x16][0xffffff86]4'!$G[0xffffffdf]W[0xfffffff4]W*j[[0xfffffff3]xR[0xffffffae][0xffffffb6][0xc][0xffffffd0],; #[0xffffffa9][0xffffff92]5[0xffffffb5][0x7][0xffffff9c][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]jgs[0xfffffffc][0xffffffc2][0xb][0xffffffd9][0x0]t[0xffffff9e]^'Y[0xfffffffb][0xffffff9f][0xffffffb1][0xffffffd8]:[0xffffffbf][0xffffff8d][0xffffffa5][0xffffff9a][0xffffffad][0x7f]m[0x5]&[0xffffffaa][0xffffffa0]^[0xffffff9b][0xffffffcb][0x5]f[0xffffffae][0xffffffe0]RU[0xffffff82][0x10]MS9l[0xffffff91]4t[0xfffffffb][0xffffff8a]][0xffffffd6][0xfffffff4][0xffffff96][0xffffffa6][0xffffff9f]P[0xffffffce][0xffffffd5][0xffffffce][0xffffff93][0xffffffff][0xffffff97][0xffffffcc]p[0xfffffffd][0xfffffff3][0xffffffe8][0x1b][0xffffffcc][0xffffffa2][0xffffffd9]Q[0xffffffbe][0xffffffb2][0xffffffa3][0xffffffc7]m'[0xffffffdf][0xffffffe4][[0xfffffffb]^[0xffffffb0][0xffffff9a][0xffffffbe][0xffffffda][0xffffffda]_[0xffffffce][0xffffff80][0xffffffd2][0xffffffc1]7[0xffffffb7]][0xffffffc1]b[0xffffffee][0xffffffb5][0xffffffff]w[0xffffff83][0xffffffed][0xffffffa7];[0x15]<[0x10]4[0xffffff92][0xffffff84][0x18][\n]"
+[DEBUG] 2023-07-24 00:49:27.850 [main] wire - http-outgoing-0 << "BB[0xffffffba][0xffffff8e]][0xffffffb5]jo[0xffffffb9]+"[0xffffffea][0xffffffb4][0xffffffff]h"[0xffffffea]\?5[0xffffffa9][0xffffffaf]k[0xffffffec][0xffffffff]P[0xffffffea][\n]"
+[DEBUG] 2023-07-24 00:49:27.850 [main] wire - http-outgoing-0 << "w[0xffffffe1]K[0x13][0xffffffda][0xffffffec][0xffffff98][0xffffffe6]Y[0xfffffffd]h8m6[0xffffff9c]T[0xffffffc1][0xfffffff2][0xffffffa7][0xffffff91]z_[0xffffff95]o85p[0x1c][0x13][0xffffffe6][0xfffffff0]5[0xffffffee][0xfffffffc][0xffffff92][0xffffff96][0xffffffda][0xfffffff7][0xffffffcf][0xffffffb1][0x5][0x1d][0xffffffea]K[0xffffff9b]9[0xffffff8e][0xffffffad]e[0xfffffff7][0xffffff93][0xffffffa8]`[0xffffffda][0xffffffff][0x1a][0xffffffd2][0xffffff88][0xffffff85][0xfffffffd][0xfffffff2][0xffffff91]N[0xfffffff6]`[0xffffffdf]2[0xffffffcf][0xffffffae]E[0xffffff97][0xffffffc5][0xffffffa2][0xffffff9d][0xffffffef]'[0xffffff9d]mun.[0xffffffd3]f^[0xffffffc7][0xffffff82][0xffffffda][0xffffff82]9[0xfffffff5][0xffffffa9]`[0x5][0xffffffbc]4[0xffffffa1][0x1d]<M[0xffffffb5]A[0xffffffa7]3[[0xffffffc0][0x7f][0x0][0xffffffc1][0xffffffd0]$[0xffffff85][0x1d][\r][0x0][0x0]"
+[DEBUG] 2023-07-24 00:49:27.851 [main] InternalHttpClient - ep-0000000001 releasing valid endpoint
+[DEBUG] 2023-07-24 00:49:27.851 [main] PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
+[DEBUG] 2023-07-24 00:49:27.851 [main] PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+[DEBUG] 2023-07-24 00:49:27.852 [main] PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] 2023-07-24 00:49:27.852 [main] VersionDetector - Detecting chrome version using online commands.properties
+[DEBUG] 2023-07-24 00:49:27.854 [main] Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+[DEBUG] 2023-07-24 00:49:28.054 [main] Shell - Result: Version=115.0.5790.102
+[DEBUG] 2023-07-24 00:49:28.056 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:49:28.057 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:49:28.060 [main] ResolutionCache - Storing resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:49:28.065 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:49:28.066 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:49:28.100 [main] ReportManager - Jul 24, 2023 12:49:28 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:49:28.100 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:49:29.397 [main] ReportManager - Jul 24, 2023 12:49:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:49:29.397 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:49:29.409 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:29.448 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:49:29.476 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:49:31.015 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:49:31.138 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 14' test cases in the current suite                                        
+                                           Test Method: 'LoginIssues.verifyThatUserCantLoginWithWrong'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:31.437 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:31.484 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:31.921 [main] ReportManager - Get text from "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:31.922 [main] ReportManager - Clear "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:32.173 [main] ReportManager - Type "Wrong" into "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:32.314 [main] ReportManager - Type append "Wrong" into "By.id: loginpassword".
+[INFO ] 2023-07-24 00:49:32.518 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:32.559 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:33.085 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:49:33.089 [main] ReportManager - Alert Text is: [User does not exist.]
+[INFO ] 2023-07-24 00:49:33.090 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:49:33.103 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User does not exist.}
+  (Session info: chrome=115.0.5790.102): User does not exist.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cd9c5d468a139ad5caa2aa0a840e517, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59479}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59479/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cd9c5d468a139ad5caa2aa0a840e517
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ LoginIssues.verifyThatUserCantLoginWithWrong(LoginIssues.java:23)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:49:33.104 [main] ReportManager - Expected "User does not exist.", and actual "User does not exist."
+[INFO ] 2023-07-24 00:49:34.917 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "User does not exist." and Actual "User does not exist.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:49:34.960 [main] ReportManager - Successfully created attachment 'Screenshot - 1690148973516_verifyThatUserCantLoginWithWrong_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:49:34.960 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:49:34.967 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyThatUserCantLoginWithWrong'
+[INFO ] 2023-07-24 00:49:34.982 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                            'LoginIssues.afterMethod'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:35.309 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:49:35.309 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:49:35.309 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:49:35.317 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                           'LoginIssues.beforeMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:35.322 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:49:35.327 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:49:35.327 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:35.327 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:49:35.347 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:49:35.347 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:49:35.347 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:49:35.356 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:49:35.357 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:49:35.357 [main] ReportManager - Jul 24, 2023 12:49:35 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:49:35.357 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:49:36.020 [main] ReportManager - Jul 24, 2023 12:49:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:49:36.020 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:49:36.024 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:36.048 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:49:36.080 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:49:37.075 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:49:37.082 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 14' test cases in the current suite                                        
+                                                Test Method: 'LoginIssues.loginWithWrongPassword'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:37.866 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:37.915 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:38.307 [main] ReportManager - Get text from "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:38.308 [main] ReportManager - Clear "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:38.573 [main] ReportManager - Type "TestAccount2" into "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:38.711 [main] ReportManager - Type append "Wrong" into "By.id: loginpassword".
+[INFO ] 2023-07-24 00:49:38.912 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:38.950 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:39.474 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:49:39.477 [main] ReportManager - Alert Text is: [Wrong password.]
+[INFO ] 2023-07-24 00:49:39.477 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:49:39.484 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=115.0.5790.102): Wrong password.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce6b73e545449c3721d64d07b0936a9, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59499}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59499/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ce6b73e545449c3721d64d07b0936a9
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ LoginIssues.loginWithWrongPassword(LoginIssues.java:28)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:49:39.484 [main] ReportManager - Expected "Wrong password.", and actual "Wrong password."
+[INFO ] 2023-07-24 00:49:40.665 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "Wrong password." and Actual "Wrong password.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:49:40.674 [main] ReportManager - Successfully created attachment 'Screenshot - 1690148979874_loginWithWrongPassword_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:49:40.674 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:49:40.679 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: loginWithWrongPassword'
+[INFO ] 2023-07-24 00:49:40.684 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                            'LoginIssues.afterMethod'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:41.035 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:49:41.035 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:49:41.035 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:49:41.035 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                           'LoginIssues.beforeMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:41.035 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:49:41.045 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:49:41.045 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:41.045 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:49:41.055 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:49:41.055 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:49:41.055 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:49:41.055 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:49:41.055 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:49:41.065 [main] ReportManager - Jul 24, 2023 12:49:41 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:49:41.065 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:49:41.709 [main] ReportManager - Jul 24, 2023 12:49:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:49:41.709 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:49:41.710 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:41.723 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:49:41.752 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:49:42.706 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:49:42.710 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 14' test cases in the current suite                                        
+                                                Test Method: 'LoginIssues.loginWithWrongUserName'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:43.498 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:43.537 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:43.931 [main] ReportManager - Get text from "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:43.932 [main] ReportManager - Clear "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:44.195 [main] ReportManager - Type "TestAccount" into "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:44.331 [main] ReportManager - Type append "TestAccount2" into "By.id: loginpassword".
+[INFO ] 2023-07-24 00:49:44.521 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:44.559 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:45.069 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:49:45.074 [main] ReportManager - Alert Text is: [Wrong password.]
+[INFO ] 2023-07-24 00:49:45.074 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:49:45.079 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=115.0.5790.102): Wrong password.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab4ec75189f500c453f45447030339f5, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59518}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59518/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab4ec75189f500c453f45447030339f5
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ LoginIssues.loginWithWrongUserName(LoginIssues.java:33)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:49:45.079 [main] ReportManager - Expected "Wrong password.", and actual "Wrong password."
+[INFO ] 2023-07-24 00:49:46.074 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "Wrong password." and Actual "Wrong password.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:49:46.085 [main] ReportManager - Successfully created attachment 'Screenshot - 1690148985401_loginWithWrongUserName_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:49:46.092 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:49:46.092 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: loginWithWrongUserName'
+[INFO ] 2023-07-24 00:49:46.099 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                            'LoginIssues.afterMethod'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:46.412 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:49:46.412 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:49:46.412 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:49:46.418 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                           'LoginIssues.beforeMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:46.419 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:49:46.419 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:49:46.419 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:46.424 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:49:46.429 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:49:46.429 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:49:46.429 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:49:46.434 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:49:46.434 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:49:46.439 [main] ReportManager - Jul 24, 2023 12:49:46 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:49:46.439 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:49:47.148 [main] ReportManager - Jul 24, 2023 12:49:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:49:47.148 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:49:47.150 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:47.168 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:49:47.189 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:49:48.032 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:49:48.036 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 14' test cases in the current suite                                        
+                                              Test Method: 'LoginIssues.loginWithCorrectCredential'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:48.774 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:48.841 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:49.194 [main] ReportManager - Get text from "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:49.194 [main] ReportManager - Clear "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:49.435 [main] ReportManager - Type "TestAccount2" into "By.id: loginusername".
+[INFO ] 2023-07-24 00:49:49.559 [main] ReportManager - Type append "TestAccount2" into "By.id: loginpassword".
+[INFO ] 2023-07-24 00:49:49.747 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:49.783 [main] ReportManager - Click "Log in".
+[INFO ] 2023-07-24 00:49:49.785 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:49:49.786 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: loginWithCorrectCredential'
+[INFO ] 2023-07-24 00:49:49.789 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                            'LoginIssues.afterMethod'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:50.109 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:49:50.112 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:49:50.113 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:49:50.113 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                           'SignUpIssues.beforeClass'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:50.115 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                           'SignUpIssues.beforeMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:50.117 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:49:50.120 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:49:50.120 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:50.120 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:49:50.128 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:49:50.128 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:49:50.128 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:49:50.136 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:49:50.136 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:49:50.136 [main] ReportManager - Jul 24, 2023 12:49:50 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:49:50.136 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:49:50.785 [main] ReportManager - Jul 24, 2023 12:49:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:49:50.786 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:49:50.787 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:50.803 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:49:50.828 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:49:51.660 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:49:51.664 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 14' test cases in the current suite                                        
+                                      Test Method: 'SignUpIssues.verifyThatUserCantSignUpWithAlreadyExist'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:52.401 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:52.446 [main] ReportManager - Click "Sign up".
+[INFO ] 2023-07-24 00:49:52.803 [main] ReportManager - Get text from "Username:".
+[INFO ] 2023-07-24 00:49:52.804 [main] ReportManager - Clear "Username:".
+[INFO ] 2023-07-24 00:49:53.045 [main] ReportManager - Type "TestAccount2" into "Username:".
+[INFO ] 2023-07-24 00:49:53.210 [main] ReportManager - Get text from "Password:".
+[INFO ] 2023-07-24 00:49:53.210 [main] ReportManager - Clear "Password:".
+[INFO ] 2023-07-24 00:49:53.430 [main] ReportManager - Type "TestAccount2" into "Password:".
+[INFO ] 2023-07-24 00:49:53.616 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:53.653 [main] ReportManager - Click "Sign up".
+[INFO ] 2023-07-24 00:49:54.163 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:49:54.168 [main] ReportManager - Alert Text is: [This user already exist.]
+[INFO ] 2023-07-24 00:49:54.168 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:49:54.188 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : This user already exist.}
+  (Session info: chrome=115.0.5790.102): This user already exist.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6baf80242b6b493494db2b25f0b7521, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59553}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59553/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6baf80242b6b493494db2b25f0b7521
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ SignUpIssues.verifyThatUserCantSignUpWithAlreadyExist(SignUpIssues.java:17)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:49:54.189 [main] ReportManager - Expected "This user already exist.", and actual "This user already exist."
+[INFO ] 2023-07-24 00:49:55.249 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "This user already exist." and Actual "This user already exist.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:49:55.253 [main] ReportManager - Successfully created attachment 'Screenshot - 1690148994557_verifyThatUserCantSignUpWithAlreadyExist_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:49:55.262 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:49:55.263 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyThatUserCantSignUpWithAlreadyExist'
+[INFO ] 2023-07-24 00:49:55.264 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'SignUpIssues.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:55.592 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:49:55.595 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:49:55.596 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:49:55.596 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                           'SignUpIssues.beforeMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:55.598 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:49:55.600 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:49:55.600 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:55.600 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:49:55.609 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:49:55.609 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:49:55.609 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:49:55.616 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:49:55.616 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:49:55.617 [main] ReportManager - Jul 24, 2023 12:49:55 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:49:55.618 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:49:56.321 [main] ReportManager - Jul 24, 2023 12:49:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:49:56.322 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:49:56.323 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:49:56.338 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:49:56.354 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:49:57.306 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:49:57.310 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 14' test cases in the current suite                                        
+                                                Test Method: 'SignUpIssues.signUpWithoutPassword'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:49:58.049 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:58.091 [main] ReportManager - Click "Sign up".
+[INFO ] 2023-07-24 00:49:58.461 [main] ReportManager - Get text from "Username:".
+[INFO ] 2023-07-24 00:49:58.462 [main] ReportManager - Clear "Username:".
+[INFO ] 2023-07-24 00:49:58.688 [main] ReportManager - Type "TestAccount2" into "Username:".
+[INFO ] 2023-07-24 00:49:58.871 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:49:58.906 [main] ReportManager - Click "Sign up".
+[INFO ] 2023-07-24 00:49:58.909 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:49:58.911 [main] ReportManager - Alert Text is: [Please fill out Username and Password.]
+[INFO ] 2023-07-24 00:49:58.911 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:49:58.917 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: chrome=115.0.5790.102): Please fill out Username and Password.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3eb732c5ff9d57262f571dd5eec845e9, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59571}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59571/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eb732c5ff9d57262f571dd5eec845e9
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ SignUpIssues.signUpWithoutPassword(SignUpIssues.java:23)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:49:58.918 [main] ReportManager - Expected "Please fill out Username and Password.", and actual "Please fill out Username and Password."
+[INFO ] 2023-07-24 00:49:59.827 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "Please fill out Username and Password." and Actual "Please fill out Username and Password.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:49:59.831 [main] ReportManager - Successfully created attachment 'Screenshot - 1690148999235_signUpWithoutPassword_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:49:59.833 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:49:59.835 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: signUpWithoutPassword'
+[INFO ] 2023-07-24 00:49:59.836 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'SignUpIssues.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:00.209 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:00.212 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:00.214 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:00.215 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                           'SignUpIssues.beforeMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:00.218 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:00.220 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:00.220 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:00.221 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:00.228 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:00.230 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:00.230 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:00.236 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:00.237 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:00.238 [main] ReportManager - Jul 24, 2023 12:50:00 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:00.238 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:00.958 [main] ReportManager - Jul 24, 2023 12:50:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:00.958 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:00.959 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:00.973 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:00.990 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:01.913 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:01.916 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 14' test cases in the current suite                                        
+                                             Test Method: 'SignUpIssues.signUpWithCorrectCredential'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:02.676 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:02.724 [main] ReportManager - Click "Sign up".
+[INFO ] 2023-07-24 00:50:03.085 [main] ReportManager - Get text from "Username:".
+[INFO ] 2023-07-24 00:50:03.085 [main] ReportManager - Clear "Username:".
+[INFO ] 2023-07-24 00:50:03.338 [main] ReportManager - Type "TestAccount_random" into "Username:".
+[INFO ] 2023-07-24 00:50:03.505 [main] ReportManager - Get text from "Password:".
+[INFO ] 2023-07-24 00:50:03.505 [main] ReportManager - Clear "Password:".
+[INFO ] 2023-07-24 00:50:03.754 [main] ReportManager - Type "TestAccount_random" into "Password:".
+[INFO ] 2023-07-24 00:50:03.935 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:03.970 [main] ReportManager - Click "Sign up".
+[INFO ] 2023-07-24 00:50:04.481 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:50:04.483 [main] ReportManager - Alert Text is: [Sign up successful.]
+[INFO ] 2023-07-24 00:50:04.485 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:50:04.488 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Sign up successful.}
+  (Session info: chrome=115.0.5790.102): Sign up successful.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84e4f8cb66ab18e4df1435c3e1cf9f94, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59591}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59591/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84e4f8cb66ab18e4df1435c3e1cf9f94
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ SignUpIssues.signUpWithCorrectCredential(SignUpIssues.java:34)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:50:04.488 [main] ReportManager - Expected "Sign up successful.", and actual "Sign up successful."
+[INFO ] 2023-07-24 00:50:05.615 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "Sign up successful." and Actual "Sign up successful.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:50:05.615 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149004870_signUpWithCorrectCredential_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:50:05.615 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:05.624 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: signUpWithCorrectCredential'
+[INFO ] 2023-07-24 00:50:05.626 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'SignUpIssues.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:05.942 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:05.943 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:05.943 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:05.943 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                           'HomePageTests.beforeClass'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:05.947 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                          'HomePageTests.beforeMethod'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:05.947 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:05.947 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:05.947 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:05.947 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:05.957 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:05.957 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:05.957 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:05.957 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:05.957 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:05.967 [main] ReportManager - Jul 24, 2023 12:50:05 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:05.967 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:06.726 [main] ReportManager - Jul 24, 2023 12:50:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:06.727 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:06.727 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:06.741 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:06.758 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:07.688 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:07.693 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 14' test cases in the current suite                                        
+                                            Test Method: 'HomePageTests.verifyThatCategory1HasItems'                                            
+                                            Test Description: 'Verify That Phones Category Has Items'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:08.459 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:08.500 [main] ReportManager - Click "Phones".
+[INFO ] 2023-07-24 00:50:09.108 [main] ReportManager - Expected "0", and actual "7"
+[INFO ] 2023-07-24 00:50:10.120 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "0" and Actual "7". Comparison Type "EQUALS". Validation Type "NEGATIVE".
+[INFO ] 2023-07-24 00:50:10.125 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149009453_verifyThatCategory1HasItems_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:50:10.127 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:10.128 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyThatCategory1HasItems'
+[INFO ] 2023-07-24 00:50:10.131 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'HomePageTests.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:10.500 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:10.501 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:10.503 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:10.504 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                          'HomePageTests.beforeMethod'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:10.507 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:10.507 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:10.510 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:10.510 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:10.518 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:10.518 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:10.518 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:10.524 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:10.525 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:10.525 [main] ReportManager - Jul 24, 2023 12:50:10 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:10.525 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:11.168 [main] ReportManager - Jul 24, 2023 12:50:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:11.168 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:11.170 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:11.189 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:11.208 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:12.150 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:12.154 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 14' test cases in the current suite                                        
+                                            Test Method: 'HomePageTests.verifyThatCategory2HasItems'                                            
+                                           Test Description: 'Verify That Laptops Category Has Items'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:12.905 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:12.964 [main] ReportManager - Click "Laptops".
+[INFO ] 2023-07-24 00:50:13.585 [main] ReportManager - Expected "0", and actual "6"
+[INFO ] 2023-07-24 00:50:14.331 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "0" and Actual "6". Comparison Type "EQUALS". Validation Type "NEGATIVE".
+[INFO ] 2023-07-24 00:50:14.335 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149013833_verifyThatCategory2HasItems_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:50:14.337 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:14.338 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyThatCategory2HasItems'
+[INFO ] 2023-07-24 00:50:14.340 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'HomePageTests.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:14.651 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:14.653 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:14.654 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:14.655 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                          'HomePageTests.beforeMethod'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:14.656 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:14.658 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:14.659 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:14.659 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:14.666 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:14.667 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:14.667 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:14.673 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:14.673 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:14.675 [main] ReportManager - Jul 24, 2023 12:50:14 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:14.675 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:15.382 [main] ReportManager - Jul 24, 2023 12:50:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:15.382 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:15.383 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:15.397 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:15.414 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:16.323 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:16.327 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 14' test cases in the current suite                                       
+                                            Test Method: 'HomePageTests.verifyThatCategory3HasItems'                                            
+                                           Test Description: 'Verify That Monitors Category Has Items'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:17.066 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:17.103 [main] ReportManager - Click "Monitors".
+[INFO ] 2023-07-24 00:50:17.737 [main] ReportManager - Expected "0", and actual "2"
+[INFO ] 2023-07-24 00:50:18.334 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "0" and Actual "2". Comparison Type "EQUALS". Validation Type "NEGATIVE".
+[INFO ] 2023-07-24 00:50:18.343 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149017947_verifyThatCategory3HasItems_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:50:18.343 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:18.343 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyThatCategory3HasItems'
+[INFO ] 2023-07-24 00:50:18.349 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'HomePageTests.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:18.657 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:18.658 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:18.658 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:18.658 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                           'CheckoutTests.beforeClass'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:18.658 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                          'CheckoutTests.beforeMethod'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:18.667 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:18.667 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:18.667 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:18.667 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:18.677 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:18.677 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:18.677 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:18.679 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:18.679 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:18.679 [main] ReportManager - Jul 24, 2023 12:50:18 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:18.679 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:19.388 [main] ReportManager - Jul 24, 2023 12:50:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:19.388 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:19.389 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:19.403 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:19.424 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:20.328 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:20.332 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 14' test cases in the current suite                                       
+                                                   Test Method: 'CheckoutTests.addItemToCart'                                                   
+                                                      Test Description: 'Add Item To Cart'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:21.066 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:21.105 [main] ReportManager - Click "By.xpath: //*[@id="tbodyid"]/div[1]/div/a".
+[INFO ] 2023-07-24 00:50:22.185 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:22.224 [main] ReportManager - Click "Add to cart".
+[INFO ] 2023-07-24 00:50:22.730 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:50:22.733 [main] ReportManager - Alert Text is: [Product added]
+[INFO ] 2023-07-24 00:50:22.733 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:50:22.736 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Product added}
+  (Session info: chrome=115.0.5790.102): Product added
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [940a1057e10f3d174bf426e48f23cc40, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59662}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59662/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 940a1057e10f3d174bf426e48f23cc40
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ CheckoutTests.addItemToCart(CheckoutTests.java:18)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:50:22.737 [main] ReportManager - Expected "Product added", and actual "Product added"
+[INFO ] 2023-07-24 00:50:23.281 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "Product added" and Actual "Product added". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:50:23.290 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149022924_addItemToCart_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:50:23.292 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:23.293 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: addItemToCart'
+[INFO ] 2023-07-24 00:50:23.295 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'CheckoutTests.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:23.595 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:23.598 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:23.599 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:23.600 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                          'CheckoutTests.beforeMethod'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:23.602 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:23.602 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:23.603 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:23.603 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:23.609 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:23.610 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:23.610 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:23.615 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:23.616 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:23.616 [main] ReportManager - Jul 24, 2023 12:50:23 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:23.617 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:24.334 [main] ReportManager - Jul 24, 2023 12:50:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:24.334 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:24.335 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:24.349 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:24.368 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:25.301 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:25.306 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 14' test cases in the current suite                                       
+                                        Test Method: 'CheckoutTests.checkoutWithoutFillingRequiredField'                                        
+                                          Test Description: 'Checkout Without Filling Required Fields'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:26.047 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:26.089 [main] ReportManager - Click "By.xpath: //*[@id="tbodyid"]/div[1]/div/a".
+[INFO ] 2023-07-24 00:50:27.008 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:27.045 [main] ReportManager - Click "Add to cart".
+[INFO ] 2023-07-24 00:50:27.556 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:50:27.559 [main] ReportManager - Accept alert.
+[INFO ] 2023-07-24 00:50:27.742 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:27.784 [main] ReportManager - Click "Cart".
+[INFO ] 2023-07-24 00:50:28.707 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:28.768 [main] ReportManager - Click "Place Order".
+[INFO ] 2023-07-24 00:50:29.130 [main] ReportManager - Get text from "Total: 360 Name:".
+[INFO ] 2023-07-24 00:50:29.130 [main] ReportManager - Clear "Total: 360 Name:".
+[INFO ] 2023-07-24 00:50:29.364 [main] ReportManager - Type "Name" into "Total: 360 Name:".
+[INFO ] 2023-07-24 00:50:29.538 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:29.571 [main] ReportManager - Click "Purchase".
+[INFO ] 2023-07-24 00:50:29.575 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:50:29.576 [main] ReportManager - Alert Text is: [Please fill out Name and Creditcard.]
+[INFO ] 2023-07-24 00:50:29.576 [main] ReportManager - Get alert text.
+[ERROR] 2023-07-24 00:50:29.582 [main] ReportManager - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill out Name and Creditcard.}
+  (Session info: chrome=115.0.5790.102): Please fill out Name and Creditcard.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5718f5cf033e9af964677d4d491598a, executeScript {script=return typeof jQuery != 'undefined', args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59679}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59679/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5718f5cf033e9af964677d4d491598a
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForJQueryLoadIfDefined(JavaScriptWaitManager.java:59)
+ com.shaft.gui.browser.internal.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:42)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:138)
+ CheckoutTests.checkoutWithoutFillingRequiredField(CheckoutTests.java:26)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2023-07-24 00:50:29.582 [main] ReportManager - Expected "Please fill out Name and Creditcard.", and actual "Please fill out Name and Creditcard."
+[INFO ] 2023-07-24 00:50:30.080 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "Please fill out Name and Creditcard." and Actual "Please fill out Name and Creditcard.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:50:30.082 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149029702_checkoutWithoutFillingRequiredField_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:50:30.085 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:30.086 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: checkoutWithoutFillingRequiredField'
+[INFO ] 2023-07-24 00:50:30.088 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'CheckoutTests.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:30.458 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:30.460 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:30.462 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:30.463 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                          'CheckoutTests.beforeMethod'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:30.468 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:30.469 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:30.470 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:30.470 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:30.479 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:30.479 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:30.479 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:30.486 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:30.486 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:30.488 [main] ReportManager - Jul 24, 2023 12:50:30 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:30.488 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:31.176 [main] ReportManager - Jul 24, 2023 12:50:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:31.177 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:31.178 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:31.192 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:31.209 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:32.130 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:32.134 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 14' test cases in the current suite                                       
+                                                Test Method: 'CheckoutTests.checkoutSuccessfully'                                                
+                                        Test Description: 'Complete successful checkout with random item'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:32.893 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:32.937 [main] ReportManager - Click "By.xpath: //*[@id="tbodyid"]/div[1]/div/a".
+[INFO ] 2023-07-24 00:50:33.893 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:33.933 [main] ReportManager - Click "Add to cart".
+[INFO ] 2023-07-24 00:50:34.439 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:50:34.443 [main] ReportManager - Accept alert.
+[INFO ] 2023-07-24 00:50:34.626 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:34.658 [main] ReportManager - Click "Cart".
+[INFO ] 2023-07-24 00:50:35.575 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:35.612 [main] ReportManager - Click "Place Order".
+[INFO ] 2023-07-24 00:50:36.337 [main] ReportManager - Get text from "Total: 360 Name:".
+[INFO ] 2023-07-24 00:50:36.337 [main] ReportManager - Clear "Total: 360 Name:".
+[INFO ] 2023-07-24 00:50:36.550 [main] ReportManager - Type "tes" into "Total: 360 Name:".
+[INFO ] 2023-07-24 00:50:36.801 [main] ReportManager - Type "testCard" into "Credit card:".
+[INFO ] 2023-07-24 00:50:36.996 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:37.043 [main] ReportManager - Click "Purchase".
+[INFO ] 2023-07-24 00:50:37.673 [main] ReportManager - Get text "Thank you for your purchase!" from "Thank you for your purchase!".
+[INFO ] 2023-07-24 00:50:37.687 [main] ReportManager - Expected "Thank you for your purchase!", and actual "Thank you for your purchase!"
+[INFO ] 2023-07-24 00:50:38.206 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "Thank you for your purchase!" and Actual "Thank you for your purchase!". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-24 00:50:38.206 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149037812_checkoutSuccessfully_ValidateEquals_passed'
+[INFO ] 2023-07-24 00:50:38.210 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:38.210 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: checkoutSuccessfully'
+[INFO ] 2023-07-24 00:50:38.215 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'CheckoutTests.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:38.533 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:38.535 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:38.535 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:38.535 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                          'CheckoutTests.beforeMethod'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:38.535 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-07-24 00:50:38.535 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Asus\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-07-24 00:50:38.535 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:38.535 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-07-24 00:50:38.548 [main] ResolutionCache - Resolution chrome=115 in cache (valid until 01:49:28 24/07/2023 EEST)
+[DEBUG] 2023-07-24 00:50:38.548 [main] ResolutionCache - Resolution chrome115=114.0.5735.90 in cache (valid until 00:59:03 24/07/2023 EEST)
+[INFO ] 2023-07-24 00:50:38.548 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 115)
+[DEBUG] 2023-07-24 00:50:38.549 [main] WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+[INFO ] 2023-07-24 00:50:38.555 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[WARN ] 2023-07-24 00:50:38.557 [main] ReportManager - Jul 24, 2023 12:50:38 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-07-24 00:50:38.557 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-07-24 00:50:39.296 [main] ReportManager - Jul 24, 2023 12:50:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-07-24 00:50:39.296 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+[INFO ] 2023-07-24 00:50:39.299 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-07-24 00:50:39.310 [main] ReportManager - Target URL: "https://www.demoblaze.com/"
+[INFO ] 2023-07-24 00:50:39.325 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-07-24 00:50:40.146 [main] ReportManager - Navigate to url "https://www.demoblaze.com/".
+[INFO ] 2023-07-24 00:50:40.151 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '14 out of 14' test cases in the current suite                                       
+                                                 Test Method: 'CheckoutTests.deleteItemFromCart'                                                 
+                                                    Test Description: 'Delete Item From Cart'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:40.894 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:40.926 [main] ReportManager - Click "By.xpath: //*[@id="tbodyid"]/div[1]/div/a".
+[INFO ] 2023-07-24 00:50:41.973 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:42.008 [main] ReportManager - Click "Add to cart".
+[INFO ] 2023-07-24 00:50:42.513 [main] ReportManager - Alert is present
+[INFO ] 2023-07-24 00:50:42.515 [main] ReportManager - Accept alert.
+[INFO ] 2023-07-24 00:50:42.685 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:42.717 [main] ReportManager - Click "Cart".
+[INFO ] 2023-07-24 00:50:43.766 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-07-24 00:50:43.804 [main] ReportManager - Click "Delete".
+[INFO ] 2023-07-24 00:50:50.101 [main] ReportManager - Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda$927/0x000001e8149f8730@28056451 (tried for 5 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Delete')]"}
+[INFO ] 2023-07-24 00:50:50.604 [main] ReportManager - Assertion "ValidateElementExists" PASSED. Expected "Element Should not Exist, locator 'By.xpath: //*[contains(text(),'Delete')]'" and Actual "Element Doesn't Exists". Comparison Type "EQUALS". Validation Type "NEGATIVE".
+[INFO ] 2023-07-24 00:50:50.608 [main] ReportManager - Successfully created attachment 'Screenshot - 1690149050239_deleteItemFromCart_ValidateElementExists_passed'
+[INFO ] 2023-07-24 00:50:50.611 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2023-07-24 00:50:50.611 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: deleteItemFromCart'
+[INFO ] 2023-07-24 00:50:50.614 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                           'CheckoutTests.afterMethod'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:50.922 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-07-24 00:50:50.924 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-07-24 00:50:50.925 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-07-24 00:50:50.935 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-24 00:50:50.937 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-07-24 00:50:50.938 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-07-24 00:50:50.938 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

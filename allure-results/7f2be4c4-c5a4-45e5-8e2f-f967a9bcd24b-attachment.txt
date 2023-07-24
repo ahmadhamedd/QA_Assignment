@@ -1,0 +1,14 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 14' test cases in the current suite                                        
+                                            Test Method: 'HomePageTests.verifyThatCategory2HasItems'                                            
+                                           Test Description: 'Verify That Laptops Category Has Items'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:50:12.0904 AM
+[ReportManager] Click "Laptops". @24-07-2023 00:50:12.0964 AM
+[ReportManager] Expected "0", and actual "6" @24-07-2023 00:50:13.0585 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "0" and Actual "6". Comparison Type "EQUALS". Validation Type "NEGATIVE". @24-07-2023 00:50:14.0331 AM
+[ReportManager] Assertion Passed: "6" does not equal "0". @24-07-2023 00:50:14.0331 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1690149013833_verifyThatCategory2HasItems_ValidateEquals_passed' @24-07-2023 00:50:14.0335 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod' @24-07-2023 00:50:14.0337 AM

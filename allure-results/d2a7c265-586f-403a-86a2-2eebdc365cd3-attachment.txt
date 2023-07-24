@@ -1,0 +1,15 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 14' test cases in the current suite                                        
+                                              Test Method: 'LoginIssues.loginWithCorrectCredential'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:49:48.0774 AM
+[ReportManager] Click "Log in". @24-07-2023 00:49:48.0840 AM
+[ReportManager] Get text from "By.id: loginusername". @24-07-2023 00:49:49.0194 AM
+[ReportManager] Clear "By.id: loginusername". @24-07-2023 00:49:49.0194 AM
+[ReportManager] Type "TestAccount2" into "By.id: loginusername". @24-07-2023 00:49:49.0435 AM
+[ReportManager] Type append "TestAccount2" into "By.id: loginpassword". @24-07-2023 00:49:49.0559 AM
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:49:49.0745 AM
+[ReportManager] Click "Log in". @24-07-2023 00:49:49.0783 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod' @24-07-2023 00:49:49.0785 AM

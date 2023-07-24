@@ -1,0 +1,29 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 14' test cases in the current suite                                       
+                                                Test Method: 'CheckoutTests.checkoutSuccessfully'                                                
+                                        Test Description: 'Complete successful checkout with random item'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:50:32.0893 AM
+[ReportManager] Click "By.xpath: //*[@id="tbodyid"]/div[1]/div/a". @24-07-2023 00:50:32.0937 AM
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:50:33.0893 AM
+[ReportManager] Click "Add to cart". @24-07-2023 00:50:33.0933 AM
+[ReportManager] Alert is present @24-07-2023 00:50:34.0439 AM
+[ReportManager] Accept alert. @24-07-2023 00:50:34.0443 AM
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:50:34.0625 AM
+[ReportManager] Click "Cart". @24-07-2023 00:50:34.0658 AM
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:50:35.0575 AM
+[ReportManager] Click "Place Order". @24-07-2023 00:50:35.0612 AM
+[ReportManager] Get text from "Total: 360 Name:". @24-07-2023 00:50:36.0337 AM
+[ReportManager] Clear "Total: 360 Name:". @24-07-2023 00:50:36.0337 AM
+[ReportManager] Type "tes" into "Total: 360 Name:". @24-07-2023 00:50:36.0550 AM
+[ReportManager] Type "testCard" into "Credit card:". @24-07-2023 00:50:36.0801 AM
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:50:36.0996 AM
+[ReportManager] Click "Purchase". @24-07-2023 00:50:37.0043 AM
+[ReportManager] Get text "Thank you for your purchase!" from "Thank you for your purchase!". @24-07-2023 00:50:37.0673 AM
+[ReportManager] Expected "Thank you for your purchase!", and actual "Thank you for your purchase!" @24-07-2023 00:50:37.0687 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "Thank you for your purchase!" and Actual "Thank you for your purchase!". Comparison Type "EQUALS". Validation Type "POSITIVE". @24-07-2023 00:50:38.0206 AM
+[ReportManager] Assertion Passed: "Thank you for your purchase!" is equal to "Thank you for your purchase!". @24-07-2023 00:50:38.0206 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1690149037812_checkoutSuccessfully_ValidateEquals_passed' @24-07-2023 00:50:38.0206 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod' @24-07-2023 00:50:38.0210 AM

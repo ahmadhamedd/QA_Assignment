@@ -1,0 +1,14 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 14' test cases in the current suite                                       
+                                            Test Method: 'HomePageTests.verifyThatCategory3HasItems'                                            
+                                           Test Description: 'Verify That Monitors Category Has Items'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Moved the mouse to the middle of the element. @24-07-2023 00:50:17.0066 AM
+[ReportManager] Click "Monitors". @24-07-2023 00:50:17.0103 AM
+[ReportManager] Expected "0", and actual "2" @24-07-2023 00:50:17.0737 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "0" and Actual "2". Comparison Type "EQUALS". Validation Type "NEGATIVE". @24-07-2023 00:50:18.0334 AM
+[ReportManager] Assertion Passed: "2" does not equal "0". @24-07-2023 00:50:18.0334 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1690149017947_verifyThatCategory3HasItems_ValidateEquals_passed' @24-07-2023 00:50:18.0343 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod' @24-07-2023 00:50:18.0343 AM
