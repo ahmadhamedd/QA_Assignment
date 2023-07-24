@@ -6,3 +6,8 @@
   All cases are run locally:
  
 ![image](https://github.com/ahmadhamedd/QA_Assignment/assets/26810454/7c69cb3c-c44c-4560-900e-71397d564364)
+
+A screenshot from Allure Report
+
+![image](https://github.com/ahmadhamedd/QA_Assignment/assets/26810454/68a96f5d-ecda-471a-b40a-1651c6be8414)
+ 
